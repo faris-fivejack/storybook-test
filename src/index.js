@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+export * from './stories/Button';
+export * from './stories/Header';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
