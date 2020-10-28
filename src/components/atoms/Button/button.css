@@ -1,0 +1,80 @@
+.button {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  opacity: 1;
+  transition: all .2s;
+  min-width: 100px;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.button:focus{
+  outline: none;
+}
+.button:active{
+  background-color: #C85000;
+}
+
+.button:hover{
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.16)
+}
+
+/* Differentiator Contained */
+
+.Purchasing{
+  border: 0;
+  background-color: #EF6000;
+  color: '#FFFFFF';
+}
+.Purchasing--disabled{
+  background-color: #9B9B9B;
+  color: #FFFFFF;
+}
+.NonPurchasing{
+  border: 0;
+  background-color: #307FE2;
+  color: '#FFFFFF';
+}
+.NonPurchasing--disabled{
+  background-color: #9B9B9B;
+  color: #FFFFFF;
+}
+
+/* Differentiator Outline */
+
+.Regular{
+  border: 1px solid #307FE2;
+  background-color: transparent;
+  color: #307FE2
+}
+.Regular--disabled{
+  border: 1px solid #9b9b9b;
+  background-color: transparent;
+  color: #9b9b9b
+}
+.Other{
+  border: 1px solid #606060;
+  background-color: transparent;
+  color: #606060
+}
+.Other--disabled{
+  border: 1px solid #9B9B9B;
+  background-color: transparent;
+  color: #9B9B9B
+}
+
+
+/* Size  */
+.button--Short {
+  padding: 9px 20px;
+  height: 32px;
+}
+.button--Full {
+  padding: 9px 20px;
+  width: 328px;
+  height: 32px;
+}
