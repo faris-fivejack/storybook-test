@@ -12,18 +12,8 @@
   color: #FFFFFF;
   font-size: 14px;
 }
-.button:focus{
-  outline: none;
-}
-.button:active{
-  background-color: #C85000;
-}
 
-.button:hover{
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.16)
-}
-
-/* Differentiator Contained */
+/* Differentiator of Contained Class */
 
 .Purchasing{
   border: 0;
@@ -34,6 +24,17 @@
   background-color: #9B9B9B;
   color: #FFFFFF;
 }
+.Purchasing:focus{
+  outline: none;
+}
+.Purchasing:active{
+  background-color: #C85000;
+}
+
+.Purchasing:hover{
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.16)
+}
+
 .NonPurchasing{
   border: 0;
   background-color: #307FE2;
@@ -44,7 +45,7 @@
   color: #FFFFFF;
 }
 
-/* Differentiator Outline */
+/* Differentiator of Outline Class */
 
 .Regular{
   border: 1px solid #307FE2;
@@ -54,8 +55,19 @@
 .Regular--disabled{
   border: 1px solid #9b9b9b;
   background-color: transparent;
-  color: #9b9b9b
+  color: #9b9b9b;
 }
+.Regular:focus{
+  outline: none;
+}
+.Regular:active{
+  background-color: #E1EEFF;
+}
+
+.Regular:hover{
+  background-color: #F1F7FF;
+}
+
 .Other{
   border: 1px solid #606060;
   background-color: transparent;
