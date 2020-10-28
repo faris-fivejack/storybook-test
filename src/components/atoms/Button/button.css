@@ -13,6 +13,10 @@
   font-size: 14px;
 }
 
+.button:focus{
+  outline: none;
+}
+
 /* Differentiator of Contained Class */
 
 .Purchasing{
@@ -23,9 +27,6 @@
 .Purchasing--disabled{
   background-color: #9B9B9B;
   color: #FFFFFF;
-}
-.Purchasing:focus{
-  outline: none;
 }
 .Purchasing:active{
   background-color: #C85000;
@@ -56,9 +57,6 @@
   border: 1px solid #9b9b9b;
   background-color: transparent;
   color: #9b9b9b;
-}
-.Regular:focus{
-  outline: none;
 }
 .Regular:active{
   background-color: #E1EEFF;
